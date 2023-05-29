@@ -31,8 +31,8 @@ jobs:
       # Authenticate to target org
       - name: "Authenticate to Org"
         run: |
-          echo ${{ secrets.PRIVATE_AUTH_SECRET }} > ./PRIVATE_AUTH_SECRET.txt
-          sfdx force:auth:sfdxurl:store -f ./PRIVATE_AUTH_SECRET.txt --setdefaultusername
+          echo ${{ secrets.PACEDEV_AUTH_SECRET }} > ./PACEDEV_AUTH_SECRET.txt
+          sfdx force:auth:sfdxurl:store -f ./PACEDEV_AUTH_SECRET.txt --setdefaultusername
       # Delta deploy
       - name: "Delta deploy"
         run: |
