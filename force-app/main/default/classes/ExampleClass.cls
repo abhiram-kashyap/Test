@@ -1,6 +1,6 @@
 public class ExampleClass {
     public Integer calculateSum(Integer num1, Integer num2) {
-        system.debug('Testing CICD Veeru update'); 
+        system.debug('Testing Branch protection'); 
         return num1 + num2;
     }
 }
