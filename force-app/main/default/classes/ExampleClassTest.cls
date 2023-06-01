@@ -6,7 +6,7 @@ public class ExampleClassTest {
         Integer num1 = 5;
         Integer num2 = 10;
         Integer expectedSum = 15;
-        system.debug('Testing Branch protection readOnly test');
+        system.debug('Changes from Feature2');
         // Act
         ExampleClass exampleObj = new ExampleClass();
         Integer actualSum = exampleObj.calculateSum(num1, num2);
