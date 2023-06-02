@@ -9,7 +9,7 @@ public class ExampleClassTest {
         system.debug('Testing Branch protection readOnly test scenario 1');
         // Act
         ExampleClass exampleObj = new ExampleClass();
-        //Integer actualSum = exampleObj.calculateSum(num1, num2);
+        Integer actualSum = exampleObj.calculateSum(num1, num2);
         
         // Assert
         System.assertEquals(expectedSum, actualSum);
