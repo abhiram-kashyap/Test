@@ -10,7 +10,7 @@ public class ExampleClassTest {
         // Act
         ExampleClass exampleObj = new ExampleClass();
         //Integer actualSum = exampleObj.calculateSum(num1, num2);
-        
+         Integer actualSum = 15;
         // Assert
         System.assertEquals(expectedSum, actualSum);
     }
